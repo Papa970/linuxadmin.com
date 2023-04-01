@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #282828;
+    overflow-x: hidden;
+
+}
+nav {
+    background: grey;
+    display: none;
+    text-align: left;
+    align-items: normal;
+    height: 2px;
+    padding: 0 10px;
+}
+nav .logo {
+    cursor: pointer;
+}
+nav .nav-items{
+    display: none;
+    flex: 1;
+    padding: 0 0 0 40px;
+    margin-left: 300px;
+}
+
+nav form{
+    display: flex;
+    padding: 3px;
+    height: 40px;
+    background: #282828;
+    min-width: 20% !important;
+    border-radius: 30px;
+    border: 1px solid rgba (155, 155, 155, 0.2)
+
+}
+nav form .search-data{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 21px;
+    color: white;
+    background: goldenrod;
+    font-size: 17px;
+    border: 0ic;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    cursor: pointer;
+
+}
+nav form button:hover{
+    background: goldenrod
+}
+.content {
+    margin: 30px;
+    text-align: center;
+    color: white;
+}
+.content h3{
+    justify-content: space-between;
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.content h4 {
+    margin-top: 30px;
+    justify-content: baseline;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content p {
+    margin-top: 30px;
+
+}
+.content p i {
+    color: goldenrod;
+}
+
+.movie-items {
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 1%;
+    padding: 25px;
+}
